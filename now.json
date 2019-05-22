@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": "www.yellowco.co",
+  "scope": "yellowco",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://yellowco.co/$1" }
+    }
+  ]
+}
